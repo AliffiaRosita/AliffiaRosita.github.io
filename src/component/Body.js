@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import List from './component/List';
+import List from './List';
 class Body extends Component {
     
     constructor(props){
@@ -9,8 +9,14 @@ class Body extends Component {
                 id:0,
                 name:"Menggambar",
                 desc:"Menggambar fanart klee dengan pensil dan sketchbook"
-            }],
-            index:0,
+            },
+            {
+                id:1,
+                name:"Ngoding",
+                desc:"Mengerjakan tugas todo list menggunakan react js dari progate"
+            }
+        ],
+            index:2,
             name:"",
             desc:"",
             setUpdate:[{

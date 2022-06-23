@@ -92,3 +92,7 @@ small{
 .btn-danger:hover{
     background-color: rgb(160, 44, 44);
 }
+.checkbox{
+    width: 18px;
+    height: 18px;
+}

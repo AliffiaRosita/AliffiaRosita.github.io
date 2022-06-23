@@ -1,15 +1,13 @@
 // import logo from './logo.svg';
 // import './App.css';
 import './style.css';
-import Header from './Header';
-import Body from './Body';
-import Footer from './Footer';
+import Header from './component/Header';
+import Body from './component/Body';
 function App() {
   return (
     <div>
       <Header />
       <Body />
-      <Footer />
     </div>
     // <div className="App">
     //   <header className="App-header">
