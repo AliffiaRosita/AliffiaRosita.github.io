@@ -1,0 +1,94 @@
+.header{
+ text-align: center;
+
+}
+.container{
+    margin: 4rem;
+    text-align: center;
+}
+form{
+    display: inline-block;
+}
+.inputText{
+    border-radius: 5px;
+    border: 2px solid rgb(73, 167, 159);
+    height: 25px;
+    padding: 5px 7px;
+    width: 300px;
+}
+.inputTextArea{
+    border-radius: 5px;
+    border: 2px solid rgb(73, 167, 159);
+    margin: 5px;
+    padding: 5px 7px;
+    width: 300px;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+small{
+    color: red;
+    display: block;
+    text-align: left;
+}
+.inputText:focus, .inputTextArea:focus{
+    outline: none !important;
+    border:2px solid rgb(94, 212, 203);
+}
+.button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(64, 204, 64);
+    margin: 5px;
+    font-size: 14px;
+    padding: 10px 15px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.container-card{
+    margin: 5em 25em;
+}
+.list-card{
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px 10px 20px 20px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.list-card h4{
+    margin-bottom: 1px;
+}
+.list-card p{
+    margin-top: 5px;
+}
+
+.btn{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 3px;
+    font-size: 14px;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-info{
+    background-color: rgb(56, 105, 209);
+}
+.btn-danger{
+    background-color: rgb(209, 56, 56);
+}
+.btn-info:hover{
+    background-color: rgb(40, 76, 155);
+}
+.btn-danger:hover{
+    background-color: rgb(160, 44, 44);
+}
